@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon lecteur vidéo</title>
+</head>
+<body>
+	<header>
+		<h1>Lecteur vidéo</h1>
+	</header>
+	<section id="sec1">
+		<video id="video" autoplay>
+			<source id="source" src="rd">
+		</video>
+		</br>
+		<button id="before" onclick="vidPrec()"><<</button>
+		<button id="plays" onclick="vidPause()">Play</button>
+		<button id="next" onclick="vidSuiv()">>></button>
+		<button onclick="lectGrand()">Grand</button>
+		<button onclick="lectPetit()">Petit</button>
+		<button onclick="lectNormal()">Normal</button>
+    </section>
+	</br>
+	<section id="sec2">
+		<input type="url" id="division">
+		<button id="charger">Charger flux RSS</button>
+    </section>
+	<section id="sec3">
+		<div id="playlist">
+		</div>
+	<section>
+</body>
+<script src="j.js"></script>
+</html>
